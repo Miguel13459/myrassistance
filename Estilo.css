@@ -12,7 +12,7 @@
     /*font-family: "Oswald", sans-serif;*/
 }
 
-body{
+body {
     background: rgb(224, 224, 224);
     width: 100vw;
     height: 100vh;
@@ -20,7 +20,7 @@ body{
 
 /*-----------------header------------------*/
 
-header{
+header {
     background: rgb(195, 195, 196);
     width: 100%;
     height: 80px;
@@ -31,7 +31,7 @@ header{
 
 }
 
-#contenedorLogo{
+#contenedorLogo {
     width: 400px;
     height: 100%;
 
@@ -40,29 +40,29 @@ header{
     align-items: center;
 }
 
-#logo{
+#logo {
     height: 40px;
 }
 
-#contenedorNav{
+#contenedorNav {
     width: 100%;
     height: 100%;
 
     display: flex;
     justify-content: end;
-    
+
 }
 
-nav{
+nav {
     width: 60%;
     height: 100%;
     margin-right: 30px;
-    
+
     display: flex;
     justify-content: end;
 }
 
-.botonesNav{
+.botonesNav {
     padding: 0 12px;
     height: 100%;
 
@@ -71,16 +71,16 @@ nav{
     align-items: center;
 }
 
-.botonesNav:hover{
+.botonesNav:hover {
     background-color: rgba(0, 0, 0, 0.089);
     cursor: pointer;
 }
 
-.botonesNav:active{
+.botonesNav:active {
     background-color: rgba(0, 0, 0, 0.247);
 }
 
-#botonesRegistro{
+#botonesRegistro {
     width: 500px;
     height: 100%;
 
@@ -88,24 +88,24 @@ nav{
     align-items: center;
 }
 
-.registro{
+.registro {
     padding: 12px;
     margin-left: 10px;
     border-radius: 5px;
 }
 
-#botonInicioSesion{
+#botonInicioSesion {
     background-color: #005086;
     color: #f3f3f3;
 }
 
 /* ------------ contenido de la pagina ---------------- */
-#contenidoPagina{
+#contenidoPagina {
     width: 100%;
 }
 
 /*slogan*/
-#slogan{
+#slogan {
     width: 100%;
     height: 60vh;
 
@@ -116,25 +116,88 @@ nav{
     text-align: center;
 }
 
-h1{
+h1 {
     font-family: "Oswald", sans-serif;
     font-size: 3.5em;
     font-weight: 400;
 }
 
-#slogan span{
+#slogan span {
     font-family: "Oswald", sans-serif;
     font-weight: 400;
 
     color: #00862a;
 }
 
-#slogan p{
+#slogan p {
     font-size: 1.4em;
 }
 
-footer{
-    background-color: aqua;
+
+
+/* ------------ Footer ---------------- */
+
+footer {
+    background: rgb(195, 195, 196);
     width: 100%;
-    padding: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 1.1em;
+}
+
+#contenedorLogoFooter {
+
+    height: 100%;
+    margin-right: 30px;
+
+}
+
+#logoFooter {
+
+    height: 160px;
+}
+
+#contenedorNavFooter {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 400px;
+}
+
+#contenedorContactosFooter {
+    text-align: right;
+}
+
+#contenedorContactosFooter p {
+    padding: 5px;
+}
+
+#contenedorContactosFooter img {
+    height: 30px;
+}
+
+
+#contenedorPoliticas {
+    width: 100%;
+    text-align: right;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    border-top: solid gray 2px;
+
+}
+
+#contenedorPoliticas p {
+    margin-right: 30px;
+}
+
+hr {
+    height: 2px;
+    border-width: 0;
+    color: gray;
+    background-color: gray
 }
