@@ -303,8 +303,69 @@ h1{
     width: 20px;
 }
 
-footer{
-    background-color: aqua;
+/* ------------ Footer ---------------- */
+
+footer {
+    background: rgb(195, 195, 196);
     width: 100%;
-    padding: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 1.1em;
+}
+
+#contenedorLogoFooter {
+
+    height: 100%;
+    margin-right: 30px;
+
+}
+
+#logoFooter {
+
+    height: 160px;
+}
+
+#contenedorNavFooter {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 400px;
+}
+
+#contenedorContactosFooter {
+    text-align: right;
+}
+
+#contenedorContactosFooter p {
+    padding: 5px;
+}
+
+#contenedorContactosFooter img {
+    height: 30px;
+}
+
+
+#contenedorPoliticas {
+    width: 100%;
+    text-align: right;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    border-top: solid gray 2px;
+
+}
+
+#contenedorPoliticas p {
+    margin-right: 30px;
+}
+
+hr {
+    height: 2px;
+    border-width: 0;
+    color: gray;
+    background-color: gray
 }
