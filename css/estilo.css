@@ -13,7 +13,7 @@
 }
 
 body{
-    background: rgb(246, 246, 246);
+    background: rgb(238, 244, 248);
     width: 100vw;
     height: 100vh;
 }
@@ -139,7 +139,7 @@ nav{
     align-items: center;
     text-align: center;
 
-    background-image: url(../recursos/img/frases/portada.png);
+    background-image: url(../recursos/img/inicio/frases/portada.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -269,6 +269,7 @@ h1{
 .tarjeta{
     /*background-color: rgb(227, 227, 227);*/
     border: 1px solid #3095ae;
+    background-color: #f7f7f7;
     width: 367px;
     border-radius: 15px;
     
@@ -303,7 +304,20 @@ h1{
     font-size: 1.2rem;
 }
 
+/*----------------infografia----------------*/
+
+#infografia{
+    margin-top: 10vh;
+}
+
 /*------------------planes -------------------*/
+
+#tarjetasPlanes{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px; 
+}
 
 #paquetes{
     width: 100%;
@@ -345,6 +359,11 @@ h1{
     /*background-color: rgb(227, 227, 227);*/
     border-radius: 15px;
     border: 1px solid #3095ae;
+    background-color: #f7f7f7;
+}
+
+.tarjetaPlan:hover{
+    background-color: #eaedf0;
 }
 
 .margenPlan{
@@ -374,6 +393,7 @@ h1{
 }
 
 .mensajePlan{
+    height: 65px;
     margin-bottom: 32px;
 }
 
@@ -385,7 +405,7 @@ h1{
 .numeroPrecio{
     font-family: "Oswald", sans-serif;
     font-size: 2.4rem;
-    font-weight: 700;
+    font-weight: 400;
     margin: 0 5px;
     padding: 0;
 }
@@ -409,6 +429,14 @@ h1{
     background-color: #005086;
     color: #f3f3f3;
     
+}
+
+.botonPlan:hover{
+    background-color: #0789d4;
+}
+
+.botonPlan:active{
+    background-color: #003e68;
 }
 
 .miniTituloPlanes{
