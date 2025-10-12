@@ -99,6 +99,26 @@ nav{
     color: #f3f3f3;
 }
 
+#botonInicioSesion:hover{
+    background-color: #0b71b6;
+}
+
+#botonInicioSesion:active{
+    background-color: #003e68;
+}
+
+#botonRegistrarse{
+    border: 1px solid #005086;
+}
+
+#botonRegistrarse:hover{
+    background: #dbdbdb;
+}
+
+#botonRegistrarse:active{
+    background: #f7f7f7;
+}
+
 /* ------------ contenido de la pagina ---------------- */
 #contenidoPagina{
     width: 100%;
@@ -118,6 +138,10 @@ nav{
     justify-content: center;
     align-items: center;
     text-align: center;
+
+    background-image: url(../recursos/img/frases/portada.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1{
@@ -145,12 +169,21 @@ h1{
 .espacioFraseImagen{
     width: 100%;
     background-color: #005086;
+    /*border-bottom: 2px solid #f3f3f3;*/
 
     display: flex;
 }
 
+.segundoEspacio{
+    background-color: #005086;
+}
+
 .imagenFrase{
     width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .textoFrase{
@@ -165,7 +198,8 @@ h1{
 }
 
 .textoFrase h2{
-    font-size: 2rem;
+    font-size: 2.2rem;
+    font-weight: 600;
     margin-bottom: 30px;
 }
 
@@ -175,7 +209,6 @@ h1{
 
 .imagenDeFrases{
     width: 100%;
-    height: 100%;
 }
 
 #contenedorPequenio{
@@ -226,20 +259,23 @@ h1{
 
 /* -------------- tarjetas -----------*/
 
-.tarjetasNosotros{
+#tarjetasNosotros {
     width: 100%;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px; 
 }
 
 .tarjeta{
-    background-color: rgb(227, 227, 227);
+    /*background-color: rgb(227, 227, 227);*/
+    border: 1px solid #3095ae;
     width: 367px;
     border-radius: 15px;
     
 }
 
 .tarjetaMargen{
-    padding: 18px;
+    padding: 24px;
 }
 
 .imagenTarjetas{
@@ -249,13 +285,21 @@ h1{
     /*width: 330px;*/
 }
 
-.tarjeta h3{
+.tituloTarjeta{
+    height: 68px;
+}
+
+.descripcionTarjeta{
+    margin-bottom: 18px;
+}
+
+.tituloTarjeta h3{
     font-size: 1.4rem;
     font-weight: 600;
     margin: 5px 0;
 }
 
-.tarjeta p{
+.descripcionTarjeta p{
     font-size: 1.2rem;
 }
 
@@ -263,6 +307,7 @@ h1{
 
 #paquetes{
     width: 100%;
+    margin-bottom: 10vh;
 }
 
 #mensajePaquetes{
@@ -295,13 +340,103 @@ h1{
 }
 
 /*----------planes---------*/
+.tarjetaPlan{
+    width: 362px;
+    /*background-color: rgb(227, 227, 227);*/
+    border-radius: 15px;
+    border: 1px solid #3095ae;
+}
+
+.margenPlan{
+    padding: 18px;
+}
+
 .iconoPlanTitulo{
     width: 26px;
+    height: 26px;
+}
+
+.nombrePlan{
+    width: 100%;
+    margin-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+}
+
+.nombrePlan h4{
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.iconoPlanTitulo{
+    margin-right: 14px;
+}
+
+.mensajePlan{
+    margin-bottom: 32px;
+}
+
+.precioPlan{
+    display: flex;
+    align-items: end;
+}
+
+.numeroPrecio{
+    font-family: "Oswald", sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin: 0 5px;
+    padding: 0;
+}
+
+.descuentoPlan{
+    margin: 8px 0;
+}
+
+.descuentoPlan p{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #0789d4;
+}
+
+.botonPlan{
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin: 24px 0;
+    background-color: #005086;
+    color: #f3f3f3;
+    
+}
+
+.miniTituloPlanes{
+    margin: 12px 0;
+}
+
+.miniTituloPlanes h4{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.servicio{
+    display: flex;
+    margin: 24px 0;
+}
+
+.gestion{
+    display: flex;
+    margin: 24px 0;
 }
 
 .check{
     width: 20px;
+    height: 20px;
+    margin-right: 12px;
 }
+
+
 
 /* ------------ Footer ---------------- */
 
