@@ -114,8 +114,24 @@ for(i=0; i < planesInformacion.planes.length; i++){
         const iconoGestion = clonGestion.querySelector(".gestion img")
         const textoGestion = clonGestion.querySelector(".gestion p")
 
-        iconoGestion.src = "https://www.svgrepo.com/show/532154/check.svg"
         textoGestion.innerHTML = planesInformacion.planes[i].gestion[j]
+
+        switch(planesInformacion.planes[i].id){
+            case 1:
+                iconoGestion.src = j < 2 ? "https://www.svgrepo.com/show/532154/check.svg" : "https://www.svgrepo.com/show/532323/lock-alt.svg"
+                /*if(j <= 2){
+                    iconoGestion.src = "https://www.svgrepo.com/show/532154/check.svg"
+                }else{
+                    iconoGestion.src = "https://www.svgrepo.com/show/532323/lock-alt.svg"
+                }*/
+                break;
+            case 2:
+                iconoGestion.src = j < 3 ? "https://www.svgrepo.com/show/532154/check.svg" : "https://www.svgrepo.com/show/532323/lock-alt.svg"
+                break;
+            case 3:
+                iconoGestion.src = "https://www.svgrepo.com/show/532154/check.svg" 
+                break;
+        }
     }
     gestion.remove()
 }
