@@ -12,6 +12,10 @@
     /*font-family: "Oswald", sans-serif;*/
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 body{
     background: rgb(238, 244, 248);
     width: 100vw;
@@ -142,12 +146,17 @@ nav{
     background-image: url(../recursos/img/inicio/prueba2.svg);
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 h1{
     font-family: "Oswald", sans-serif;
     font-size: 3.5rem;
     font-weight: 400;
+
+    animation-name: aparicionDeElementos;
+    animation-duration: .5s; /* 3 segundos de duración */
+    animation-timing-function: ease-in-out; /* Curva de velocidad */
 }
 
 #slogan span{
@@ -155,10 +164,16 @@ h1{
     font-weight: 400;
 
     color: #3095ae;
+    animation-name: aparicionDeElementos;
+    animation-duration: .5s; /* 3 segundos de duración */
+    animation-timing-function: ease-in-out; /* Curva de velocidad */
 }
 
 #slogan p{
     font-size: 1.4rem;
+    animation-name: aparicionDeElementos;
+    animation-duration: .5s; 
+    animation-timing-function: ease-in-out; 
 }
 
 /*------------frases---------------*/
@@ -175,7 +190,7 @@ h1{
 }
 
 .segundoEspacio{
-    background-color: #005086;
+    background-color: #1d8dca;
 }
 
 .imagenFrase{
@@ -195,6 +210,10 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: start;
+
+    animation-name: aparicionDeElementos;
+    animation-duration: 1.6s;
+    animation-timing-function: ease-in-out; 
 }
 
 .textoFrase h2{
@@ -208,11 +227,15 @@ h1{
 }
 
 .imagenDeFrases{
-    width: 100%;
+    width: 90%;
 }
 
 #contenedorPequenio{
     width: 60%;
+
+    animation-name: aparicionDeElementos;
+    animation-duration: .5s; 
+    animation-timing-function: ease-in-out; 
 }
 
 /*----------------seccion nosotros-----------*/
@@ -254,6 +277,7 @@ h1{
 
 .imagenNosotrosArriba{ /*DARLE UNA ALTURA A LA IMAGEN DE 266px*/
     width: 100%;
+    border-radius: 15px;
     /*height: 30vh;*/
 }
 
@@ -531,4 +555,15 @@ hr {
     border-width: 0;
     color: gray;
     background-color: gray
+}
+
+
+/*-----------animaciones----------*/
+@keyframes aparicionDeElementos {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
