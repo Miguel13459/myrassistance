@@ -105,6 +105,7 @@ nav{
 
 #botonInicioSesion:hover{
     background-color: #0b71b6;
+    cursor: pointer;
 }
 
 #botonInicioSesion:active{
@@ -117,6 +118,7 @@ nav{
 
 #botonRegistrarse:hover{
     background: #dbdbdb;
+    cursor: pointer;
 }
 
 #botonRegistrarse:active{

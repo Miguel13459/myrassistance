@@ -5,44 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilo.css">
-    <title>Inicio</title>
+    <title>myr-assistance</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap"
-        rel="stylesheet">
-
-
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <div id="contenedorLogo">
-            <a href="index.html">
-                <img src="./recursos/img/logo.svg" alt="Logo Chido" id="logo">
-            </a>
-        </div>
-        <div id="contenedorNav">
-            <nav>
-                <div class="botonesNav" onclick="window.location.href = 'servicio.html';">
-                    <p>Servicios</p>
-                </div>
-                <div class="botonesNav" onclick="window.location.href = 'paquetes.html';">
-                    <p>Paquetes</p>
-                </div>
-                <div class="botonesNav" onclick="window.location.href = 'nuestrosTrabajos.html';">
-                    <p>Nuestros trabajos</p>
-                </div>
-                <div class="botonesNav" onclick="window.location.href = 'sobreNosotros.html';">
-                    <p>Sobre nosotros</p>
-                </div>
-            </nav>
-        </div>
-        <div id="botonesRegistro">
-            <button id="botonInicioSesion" class="registro">Iniciar Sesión</button>
-            <button id="botonRegistrarse" class="registro">Registrarse</button>
-        </div>
+        
     </header>
     <div id="contenidoPagina">
         <div id="slogan">
@@ -154,50 +126,15 @@
 
     </div>
     <footer>
-        <div id="contenedorLogoFooter">
-            <a href="index.html">
-                <img src="./recursos/img/logovertical.svg" alt="Logo Chido" id="logoFooter">
-            </a>
-
-        </div>
-        <div id="contenedorNavFooter">
-
-            <div class="botonesNavFooter" onclick="window.location.href = 'servicio.html';">
-                <p>Servicios</p>
-            </div>
-            <div class="botonesNavFooter" onclick="window.location.href = 'paquetes.html';">
-                <p>Paquetes</p>
-            </div>
-            <div class="botonesNavFooter" onclick="window.location.href = 'nuestrosTrabajos.html';">
-                <p>Nuestros trabajos</p>
-            </div>
-            <div class="botonesNavFooter" onclick="window.location.href = 'sobreNosotros.html';">
-                <p>Sobre nosotros</p>
-            </div>
-
-        </div>
-        <div id="contenedorContactosFooter">
-            <p>Contactanos en el siguiente correo</p>
-            <hr>
-            <p>myrassistance.corporacion@gmail.com</p>
-            <p>+52 656 123 4567</p>
-            <p>Siguenos en nuestras redes sociales</p>
-            <hr>
-            <img src="./recursos/img/Facebook.svg" alt="" >
-            <img src="./recursos/img/Instagram.svg" alt="" >
-
-        </div>
-        <hr>
-        <div id="contenedorPoliticas">
-            <p>Politica de privacidad  </p>
-            <p>Politica de reembolso</p>
-            <p>Terminos de servicio</p>
-        </div>
-
+        
     </footer>
 
 
 </body>
 <script src="./js/tarjetasNosotros.js"></script>
 <script src="./js/planes.js"></script>
+
+<!--componentes que se repiten-->
+<script src="./js/componentes/header.js"></script>
+<script src="./js/componentes/footer.js"></script>
 </html>

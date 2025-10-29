@@ -1,0 +1,72 @@
+#slogan{
+    height: 45vh;
+}
+
+#slogan h1{
+    margin-bottom: 4vh;
+}
+
+#cajaPlanes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#contenidoPaquetes{
+    width: 60%;
+}
+
+#convencerCaja{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12vh;
+}
+
+#convencer{
+    width: 55%;
+    padding: 6vh;
+    border-radius: 3vh;
+    font-size: 1rem;
+    background-color: #ffffff;
+    border: 1px solid #c5ced8;
+}
+
+#tituloConvencer h2{
+    font-family: "Oswald", sans-serif;
+    font-size: 2.8rem;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+#tituloConvencer span{
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    color: #3095ae;
+}
+
+#textoLlamadaAccion{
+    margin-bottom: 3vh;
+}
+
+#textoLlamadaAccion p{
+    font-size: 1.4rem;
+    height: 1.6rem;
+}
+
+#botonContactar button{
+    padding: 12px;
+    border-radius: 5px;
+    width: 140px;
+    background-color: #005086;
+    color: #f3f3f3;
+}
+
+#botonContactar button:hover{
+    background-color: #0b71b6;
+    cursor: pointer;
+}
+
+#botonContactar button:active{
+    background-color: #003e68;
+}

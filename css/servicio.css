@@ -1,0 +1,142 @@
+#slogan{
+    height: 45vh;
+}
+
+#slogan h1{
+    margin-bottom: 4vh;
+}
+
+#contenedorTarjetasServicios{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12vh;
+}
+
+#tarjetasServicios{
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.tarjetaServicio{
+    padding: 24px;
+    border-radius: 18px;
+    border: 1px solid #c5ced8;
+    background-color: #ffffff;
+}
+
+.imgServicio{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.tituloServicio{
+    margin: 16px 0;
+}
+
+.tituloServicio h3{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+#contenedorFormulario{
+    width: 100%;
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#anuncio{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-family: "Oswald", sans-serif;
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+#formulario{
+    width: 45%;
+    padding: 6vh;
+    border-radius: 3vh;
+    font-size: 1rem;
+    background-color: #ffffff;
+    border: 1px solid #c5ced8;
+}
+
+.secciones{
+    margin-bottom: 2vh;
+}
+
+#formulario input, textarea{
+    padding: 10px;
+    border: 1px solid #005086;
+    border-radius: 3px;
+    margin: 6px 0;
+    width: 18vw;
+}
+
+#formulario input:focus{
+    background-color: #f0f4f7;
+}
+
+#tituloFormulario{
+    width: 100%;
+}
+
+#tituloFormulario h3{
+    font-family: "Oswald", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+#nombreApellido{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cajasInput{
+    display: flex;
+    flex-direction: column;
+}
+
+#comentarioCaja{
+    display: flex;
+    flex-direction: column;
+}
+
+textarea{
+    width: 100%;
+    height: 14vh;
+}
+
+#botonCaja{
+    width: 100%;
+}
+
+#botonCaja button{
+    padding: 12px;
+    border-radius: 5px;
+    width: 140px;
+    background-color: #005086;
+    color: #f3f3f3;
+}
+
+#botonCaja button:hover{
+    background-color: #0b71b6;
+    cursor: pointer;
+}
+
+#botonCaja button:active{
+    background-color: #003e68;
+}

@@ -3,9 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>myr-assistance</title>
+
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="./css/servicio.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header></header>
+    <div id="cuerpoSercivios">
+        <div id="slogan">
+            <h1>Servicios personalizados <br> para <span>tu negocio</span></h1>
+            <p>Potencia tu negocio con una identidad que hable por sí misma. <br> En MYR Assistance unimos creatividad y
+                estrategia para hacer brillar tu marca.</p>
+        </div>
+    </div>
+    <div id="contenedorTarjetasServicios">
+        <div id="tarjetasServicios">
+            <div class="tarjetaServicio">
+                <div class="contenedorImagenServ">
+                    <img src="https://cdn-images.dzcdn.net/images/cover/4a1f6c45e7fbd38bc19e7e73c36f11f9/0x1900-000000-80-0-0.jpg" alt="servicio" class="imgServicio">
+                </div>
+                <div class="tituloServicio">
+                    <h3>Diseño Gráfico</h3>
+                </div>
+                <div class="textoServicio">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque natus accusamus nostrum quod sequi nisi enim, cum ducimus fugit quas distinctio voluptatibus ipsum est perferendis ad omnis rem quae id.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contenedorFormulario">
+        <div id="anuncio">
+            <h2>Contactanos Para un servicio personalizado</h2>
+        </div>
+        <div id="formulario">
+            <div id="tituloFormulario" class="secciones">
+                <h3>Formulario de contacto</h3>
+            </div>
+            <div id="nombreApellido" class="secciones">
+                <div id="nombreCaja" class="cajasInput">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombreInput">
+                </div>
+                <div id="apellidoCaja" class="cajasInput">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="apellido" id="apellidoInput">
+                </div>
+            </div>
+            <div id="correoCaja" class="cajasInput secciones">
+                <label for="correo">Correo electrónico</label>
+                <input type="email" name="correo" id="correoInput">
+            </div>
+            <div id="comentarioCaja" class="secciones">
+                <label for="comentario">Comentario o mensaje</label>
+                <textarea name="comentario" id="comentario" placeholder="Escribanos en qué podemos ayudarle"></textarea>
+            </div>
+            <div id="botonCaja">
+                <button>Enviar</button>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
 </body>
+<script src="./js/servicios.js"></script>
+
+<!--componentes que se repiten-->
+<script src="./js/componentes/header.js"></script>
+<script src="./js/componentes/footer.js"></script>
 </html>
