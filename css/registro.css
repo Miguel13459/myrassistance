@@ -1,0 +1,140 @@
+#ventanaOscuraRegistro{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100vw;
+    height: 100vh;
+    position:absolute;
+    top: 0%;
+    height: 100%;
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#anuncioRegistro{
+    width: 700px;
+    padding: 48px;
+    background-color: #ffffff;
+}
+
+.quitarAnuncio{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    
+}
+
+.cancelarBorrar{
+    width: 28px;
+    padding: 4px;
+}
+
+.cancelarBorrar:hover{
+    background-color: #ebdbce;
+    border-radius: 14px;
+}
+
+.cancelarBorrar:active{
+    background-color: #e0c3ac;
+    border-radius: 14px;
+}
+
+.mentajeRegistro, #registroTitulo{
+    width: 100%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 24px 0;
+
+}
+
+.formularioLogin{
+    width: 100%;
+    font-size: 1rem;
+}
+
+.formularioLogin{
+    width: 100%;
+}
+
+.elementosLogin{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputsDobles{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"]{
+    margin: 8px 0;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #0D2555;
+}
+
+input[type="checkbox"]{
+    margin-right: 8px;
+    accent-color: #2a5227; /*no olvidar esto es para que el check cambie de color*/
+    width: 20px;
+}
+
+.elementosLogin{
+    margin-bottom: 24px;
+}
+
+input[type="text"]:focus{
+    background-color: #f4f7fa;
+    border-color:#2a5227;
+}
+
+.inputTamDoble{
+    width: 48%;
+}
+
+label{
+    font-weight: 600;
+}
+
+#terminosYcondiciones{
+    display: flex;
+    justify-content: start;
+}
+
+#terminosYcondiciones label{
+    font-weight: 400;
+}
+
+span{
+    color: #3d8f37;
+    font-weight: 700;
+}
+
+span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+span:active{
+    color: #33722e;
+}
+
+#crearCuentaBotonCaja button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #005086;
+    color: #f3f3f3;
+    border: 1px solid transparent;
+    width: 100%;
+    font-size: 1.1rem;
+}
+
+#crearCuentaBotonCaja button:hover{
+    cursor: pointer;
+    background-color: #193675;
+}
+
+#crearCuentaBotonCaja button:active{
+    background-color: #1a47a8;
+}

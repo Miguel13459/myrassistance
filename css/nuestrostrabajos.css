@@ -1,0 +1,122 @@
+#slogan{
+    height: 30vh;
+}
+
+#carruselTrabajos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 8vh 0;
+}
+
+#trabajosContenedor{
+    width: 80%;
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.tarjetaTrabajos{
+    width: 400px;
+    height: 400px;
+    margin-left: 10px;
+    border-radius: 15px;
+    color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../recursos/trabajos/trabajo1.webp);
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-shrink: 0;
+}
+
+.flechas {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.flechas:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.flechas img {
+  width: 30px;
+  height: 30px;
+}
+
+.fondoOscuro{
+    height: 100%;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.margenTarjeta{
+    padding: 10px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.imgPerfil{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: 2px solid #ffffff;
+    object-fit: cover;
+}
+
+.tituloEImagen{
+    display: flex;
+    align-items: end;
+    margin-bottom: 6px;
+}
+
+.tituloEImagen h2{
+    margin-left: 10px;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+
+#indicadores {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  gap: 8px;
+}
+
+.indicador {
+  width: 12px;
+  height: 12px;
+  background-color: #bbb;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.indicador.activo {
+  background-color: #333;
+}
+
+#convencerCaja{
+    margin: 8vh 0;
+}

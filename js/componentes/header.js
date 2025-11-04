@@ -25,6 +25,35 @@ header.innerHTML = `<div id="contenedorLogo">
             </nav>
         </div>
         <div id="botonesRegistro">
-            <button id="botonInicioSesion" class="registro">Iniciar Sesión</button>
-            <button id="botonRegistrarse" class="registro">Registrarse</button>
+            <button id="botonInicioSesion" class="registro" onclick="IniciarSesion()">Iniciar Sesión</button>
+            <button id="botonRegistrarse" class="registro" onclick="Registrarse()">Registrarse</button>
         </div>`
+
+const ventanaOscuraInicioSesion = document.querySelector("#ventanaOscuraInicioSesion")
+const ventanaOscuraRegistro = document.querySelector("#ventanaOscuraRegistro")
+
+function IniciarSesion(){
+    ventanaOscuraInicioSesion.style.display = "flex"
+    QuitarVentanaRegistro()
+}
+
+function Registrarse(){
+    ventanaOscuraRegistro.style.display = "flex"
+    QuitarVentanaSesion()
+}
+
+function QuitarVentanaSesion(){
+    ventanaOscuraInicioSesion.style.display = "none"
+}
+
+function QuitarVentanaRegistro(){
+    ventanaOscuraRegistro.style.display = "none"
+}
+
+window.addEventListener("keydown", function(evento){
+    //console.log(evento)
+    if(evento.key === "Escape"){
+        ventanaOscuraInicioSesion.style.display = "none"
+        ventanaOscuraRegistro.style.display = "none"
+    }
+})

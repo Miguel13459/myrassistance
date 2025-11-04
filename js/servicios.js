@@ -1,34 +1,34 @@
 const contenidoTarjetas = {
     tarjetas: [
         {
-            imagen: "https://cdn-images.dzcdn.net/images/cover/4a1f6c45e7fbd38bc19e7e73c36f11f9/0x1900-000000-80-0-0.jpg",
+            imagen: "./recursos/servicios/imagenesparalapagina-03.png",
             titulo: "Diseño Gráfico",
-            descripcion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque natus accusamus nostrum quod sequi nisi enim, cum ducimus fugit quas distinctio voluptatibus ipsum est perferendis ad omnis rem quae id."
+            descripcion: "El diseño gráfico es la base de toda comunicación visual. En [Nombre de tu agencia], creamos piezas que no solo se ven bien, sino que transmiten mensajes claros y memorables."
         },
         {
-            imagen: "https://cdn-images.dzcdn.net/images/cover/4a1f6c45e7fbd38bc19e7e73c36f11f9/0x1900-000000-80-0-0.jpg",
+            imagen: "./recursos/servicios/imagenesparalapagina-04.png",
             titulo: "Branding",
-            descripcion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque natus accusamus nostrum quod sequi nisi enim, cum ducimus fugit quas distinctio voluptatibus ipsum est perferendis ad omnis rem quae id."
+            descripcion: "Tu marca es mucho más que un logo: es lo que la gente siente cuando piensa en ti. Creamos identidades visuales únicas, coherentes y auténticas que reflejan la esencia de tu negocio."
         },
         {
-            imagen: "https://cdn-images.dzcdn.net/images/cover/4a1f6c45e7fbd38bc19e7e73c36f11f9/0x1900-000000-80-0-0.jpg",
+            imagen: "./recursos/servicios/imagenesparalapagina-05.png",
             titulo: "Web site",
-            descripcion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque natus accusamus nostrum quod sequi nisi enim, cum ducimus fugit quas distinctio voluptatibus ipsum est perferendis ad omnis rem quae id."
+            descripcion: "Diseñamos sitios web funcionales, modernos y adaptados a cada dispositivo. Nos enfocamos en crear experiencias digitales intuitivas que conecten con tus usuarios y refuercen tu identidad de marca."
         },
         {
-            imagen: "https://cdn-images.dzcdn.net/images/cover/4a1f6c45e7fbd38bc19e7e73c36f11f9/0x1900-000000-80-0-0.jpg",
+            imagen: "./recursos/servicios/imagenesparalapagina-08.png",
             titulo: "Publicidad anuncios",
-            descripcion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque natus accusamus nostrum quod sequi nisi enim, cum ducimus fugit quas distinctio voluptatibus ipsum est perferendis ad omnis rem quae id."
+            descripcion: "Transformamos ideas en campañas visuales que captan la atención y generan resultados. Ya sea en redes sociales, medios impresos o digitales, diseñamos anuncios que comunican de forma clara, impactante y con un toque creativo que diferencia tu marca del resto."
         },
         {
-            imagen: "https://cdn-images.dzcdn.net/images/cover/4a1f6c45e7fbd38bc19e7e73c36f11f9/0x1900-000000-80-0-0.jpg",
+            imagen: "./recursos/servicios/imagenesparalapagina-06.png",
             titulo: "Presentaciones",
-            descripcion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque natus accusamus nostrum quod sequi nisi enim, cum ducimus fugit quas distinctio voluptatibus ipsum est perferendis ad omnis rem quae id."
+            descripcion: "Creamos presentaciones visualmente potentes y profesionales que potencian tu mensaje, mantienen la atención del público y elevan la imagen de tu marca. Perfectas para conferencias, propuestas o lanzamientos."
         },
         {
-            imagen: "https://cdn-images.dzcdn.net/images/cover/4a1f6c45e7fbd38bc19e7e73c36f11f9/0x1900-000000-80-0-0.jpg",
+            imagen: "./recursos/servicios/imagenesparalapagina-07.png",
             titulo: "Ilustraciones",
-            descripcion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque natus accusamus nostrum quod sequi nisi enim, cum ducimus fugit quas distinctio voluptatibus ipsum est perferendis ad omnis rem quae id."
+            descripcion: "Desde personajes y escenas conceptuales hasta gráficos editoriales y elementos decorativos, nuestras ilustraciones aportan emoción, estilo y una identidad visual inconfundible a cada proyecto."
         }
     ]
 }

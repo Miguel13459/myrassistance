@@ -7,6 +7,9 @@
 
     <link rel="stylesheet" href="./css/estilo.css">
     <link rel="stylesheet" href="./css/nuestrostrabajos.css">
+    <link rel="stylesheet" href="./css/paquetes.css">
+    <link rel="stylesheet" href="./css/iniciosesion.css">
+    <link rel="stylesheet" href="./css/registro.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,14 +17,73 @@
 </head>
 <body>
     <header></header>
-    <div id="cuerpoNuestrosTrabajos" style="width: 100vw; height: 100vh; display: flex; justify-content: center; align-items: center;">
-        <h1>Se acabó el presupuesto para esta página</h1>
+    <div id="cuerpoNuestrosTrabajos">
+        <div id="slogan">
+            <h1>Nuestros <span>trabajos</span></h1>
+            <p>Cada proyecto cuenta una historia, y en Myr-assistance nos enorgullece ser parte de ellas. <br> <br>
+            Aquí encontrarás una selección de los trabajos que hemos realizado para diferentes marcas y clientes,<br> proyectos que reflejan nuestra pasión por el diseño, la estrategia y la innovación.</p>
+        </div>
+        <div id="carruselTrabajos">
+            <div class="flechas izquierda">
+                <img src="./recursos/iconos/arrow-sm-left-svgrepo-com (1).svg" alt="izquierda">
+            </div>
+
+            <div id="trabajosContenedor">
+                <div class="tarjetaTrabajos">
+                <div class="fondoOscuro">
+                    <div class="margenTarjeta">
+                    <div class="tituloEImagen">
+                        <img src="./recursos/usuarios/usuario1.jpg" alt="perfil" class="imgPerfil">
+                        <h2>Lisa Manoban</h2>
+                    </div>
+                    <div class="textoResena">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptas ratione reprehenderit sed ipsum eaque minima vitae iusto sit natus? Soluta blanditiis vero explicabo exercitationem sunt delectus quibusdam laudantium nulla?</p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="flechas derecha">
+                <img src="./recursos/iconos/arrow-sm-right-svgrepo-com (2).svg" alt="derecha">
+            </div>
+        </div>
+
+        <div id="indicadores"></div>
+
+        <div id="convencerCaja">
+            <div id="convencer">
+                <div id="tituloConvencer">
+                    <h2>¿Aún no estás <span>convencido</span>?</h2>
+                </div>
+                <div id="textoLlamadaAccion">
+                    <p>Puedes ver nuestro proceso de trabajo de primera mano</p>
+                </div>
+                <div id="botonContactar">
+                    <button>Contáctanos</button>
+                </div>
+            </div>
+        </div>
     </div>
     
     <footer></footer>
+
+        <!--anuncio para registrarse-->
+    <div id="ventanaOscuraRegistro">
+        
+    </div>
+
+    <!--anuncio para iniciar sesión-->
+    <div id="ventanaOscuraInicioSesion">
+        
+    </div>
 </body>
 
+<script src="./js/nuestrosTrabajos.js"></script>
+
 <!--componentes que se repiten-->
+<script src="./js/componentes/ventanasesion.js"></script>
+<script src="./js/componentes/ventanaregistro.js"></script>
 <script src="./js/componentes/header.js"></script>
 <script src="./js/componentes/footer.js"></script>
 </html>
